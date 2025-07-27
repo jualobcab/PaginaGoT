@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('region', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
+            $table->string('probability', 5);
             $table->bigInteger('defense');
             $table->bigInteger('influence');
             $table->bigInteger('lands');

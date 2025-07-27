@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('character', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
+            $table->string('position');
             $table->unsignedBigInteger('age_category_id')->index('character_age_category_id_foreign');
             $table->bigInteger('experience_points_total');
             $table->bigInteger('experience_points_remaining');

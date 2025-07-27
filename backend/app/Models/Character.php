@@ -14,6 +14,7 @@ use Illuminate\Database\Eloquent\Model;
  * 
  * @property int $id
  * @property string $name
+ * @property string $position
  * @property int $age_category_id
  * @property int $experience_points_total
  * @property int $experience_points_remaining
@@ -47,6 +48,7 @@ class Character extends Model
 
 	protected $fillable = [
 		'name',
+		'position',
 		'age_category_id',
 		'experience_points_total',
 		'experience_points_remaining',

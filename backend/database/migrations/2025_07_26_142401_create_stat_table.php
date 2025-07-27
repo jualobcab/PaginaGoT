@@ -11,10 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('specialty', function (Blueprint $table) {
+        Schema::create('stat', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
-            $table->unsignedBigInteger('stat_id')->index('specialty_stat_id_foreign');
+            $table->string('description');
         });
     }
 
@@ -23,6 +23,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('specialty');
+        Schema::dropIfExists('stat');
     }
 };

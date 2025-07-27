@@ -14,6 +14,7 @@ use Illuminate\Database\Eloquent\Model;
  * 
  * @property int $id
  * @property string $name
+ * @property string $probability
  * @property int $defense
  * @property int $influence
  * @property int $lands
@@ -43,6 +44,7 @@ class Region extends Model
 
 	protected $fillable = [
 		'name',
+		'probability',
 		'defense',
 		'influence',
 		'lands',

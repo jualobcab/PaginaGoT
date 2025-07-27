@@ -14,6 +14,7 @@ use Illuminate\Database\Eloquent\Model;
  * 
  * @property int $id
  * @property string $name
+ * @property string $description
  * 
  * @property Collection|Character[] $characters
  * @property Collection|QualityRequirement[] $quality_requirements
@@ -27,7 +28,8 @@ class Stat extends Model
 	public $timestamps = false;
 
 	protected $fillable = [
-		'name'
+		'name',
+		'description'
 	];
 
 	public function characters()

@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('house', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
+            $table->text('history')->nullable();
             $table->unsignedBigInteger('region_id')->index('house_region_id_foreign');
             $table->bigInteger('defense');
             $table->bigInteger('influence');

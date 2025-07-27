@@ -14,6 +14,10 @@ use Illuminate\Database\Eloquent\Model;
  * 
  * @property int $id
  * @property string $name
+ * @property string $action
+ * @property string $description
+ * @property string|null $table
+ * @property string|null $description2
  * @property int $stat_id
  * 
  * @property Stat $stat
@@ -33,6 +37,10 @@ class Specialty extends Model
 
 	protected $fillable = [
 		'name',
+		'action',
+		'description',
+		'table',
+		'description2',
 		'stat_id'
 	];
 
