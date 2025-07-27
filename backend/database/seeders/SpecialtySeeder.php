@@ -101,7 +101,55 @@ class SpecialtySeeder extends Seeder
 
             // Combate Cuerpo a Cuerpo
             [
-                'name' => 'Ataque',
+                'name' => 'Armas Contundentes',
+                'action' => 'Acción Menor o Mayor',
+                'description' => 'Siempre que quieras efectuar un ataque en combate, debes realizar una tirada de Combate cuerpo a cuerpo contra la Defensa en combate de tu adversario. Una tirada con éxito inflige un daño total igual al daño del arma multiplicado por los grados de éxito obtenidos (el daño de un arma es el rango de la habilidad pertinente más posibles modificadores positivos o negativos). En el CAPITULO 9: COMBATE. se explica con detalle la resolución de ataques y sus consecuencias.',
+                'stat_id' => 3
+            ],
+            [
+                'name' => 'Armas de asta',
+                'action' => 'Acción Menor o Mayor',
+                'description' => 'Siempre que quieras efectuar un ataque en combate, debes realizar una tirada de Combate cuerpo a cuerpo contra la Defensa en combate de tu adversario. Una tirada con éxito inflige un daño total igual al daño del arma multiplicado por los grados de éxito obtenidos (el daño de un arma es el rango de la habilidad pertinente más posibles modificadores positivos o negativos). En el CAPITULO 9: COMBATE. se explica con detalle la resolución de ataques y sus consecuencias.',
+                'stat_id' => 3
+            ],
+            [
+                'name' => 'Armas de hoja corta',
+                'action' => 'Acción Menor o Mayor',
+                'description' => 'Siempre que quieras efectuar un ataque en combate, debes realizar una tirada de Combate cuerpo a cuerpo contra la Defensa en combate de tu adversario. Una tirada con éxito inflige un daño total igual al daño del arma multiplicado por los grados de éxito obtenidos (el daño de un arma es el rango de la habilidad pertinente más posibles modificadores positivos o negativos). En el CAPITULO 9: COMBATE. se explica con detalle la resolución de ataques y sus consecuencias.',
+                'stat_id' => 3
+            ],
+            [
+                'name' => 'Armas de hoja larga',
+                'action' => 'Acción Menor o Mayor',
+                'description' => 'Siempre que quieras efectuar un ataque en combate, debes realizar una tirada de Combate cuerpo a cuerpo contra la Defensa en combate de tu adversario. Una tirada con éxito inflige un daño total igual al daño del arma multiplicado por los grados de éxito obtenidos (el daño de un arma es el rango de la habilidad pertinente más posibles modificadores positivos o negativos). En el CAPITULO 9: COMBATE. se explica con detalle la resolución de ataques y sus consecuencias.',
+                'stat_id' => 3
+            ],
+            [
+                'name' => 'Escudos',
+                'action' => 'Acción Menor o Mayor',
+                'description' => 'Siempre que quieras efectuar un ataque en combate, debes realizar una tirada de Combate cuerpo a cuerpo contra la Defensa en combate de tu adversario. Una tirada con éxito inflige un daño total igual al daño del arma multiplicado por los grados de éxito obtenidos (el daño de un arma es el rango de la habilidad pertinente más posibles modificadores positivos o negativos). En el CAPITULO 9: COMBATE. se explica con detalle la resolución de ataques y sus consecuencias.',
+                'stat_id' => 3
+            ],
+            [
+                'name' => 'Esgrima',
+                'action' => 'Acción Menor o Mayor',
+                'description' => 'Siempre que quieras efectuar un ataque en combate, debes realizar una tirada de Combate cuerpo a cuerpo contra la Defensa en combate de tu adversario. Una tirada con éxito inflige un daño total igual al daño del arma multiplicado por los grados de éxito obtenidos (el daño de un arma es el rango de la habilidad pertinente más posibles modificadores positivos o negativos). En el CAPITULO 9: COMBATE. se explica con detalle la resolución de ataques y sus consecuencias.',
+                'stat_id' => 3
+            ],
+            [
+                'name' => 'Hachas',
+                'action' => 'Acción Menor o Mayor',
+                'description' => 'Siempre que quieras efectuar un ataque en combate, debes realizar una tirada de Combate cuerpo a cuerpo contra la Defensa en combate de tu adversario. Una tirada con éxito inflige un daño total igual al daño del arma multiplicado por los grados de éxito obtenidos (el daño de un arma es el rango de la habilidad pertinente más posibles modificadores positivos o negativos). En el CAPITULO 9: COMBATE. se explica con detalle la resolución de ataques y sus consecuencias.',
+                'stat_id' => 3
+            ],
+            [
+                'name' => 'Lanzas',
+                'action' => 'Acción Menor o Mayor',
+                'description' => 'Siempre que quieras efectuar un ataque en combate, debes realizar una tirada de Combate cuerpo a cuerpo contra la Defensa en combate de tu adversario. Una tirada con éxito inflige un daño total igual al daño del arma multiplicado por los grados de éxito obtenidos (el daño de un arma es el rango de la habilidad pertinente más posibles modificadores positivos o negativos). En el CAPITULO 9: COMBATE. se explica con detalle la resolución de ataques y sus consecuencias.',
+                'stat_id' => 3
+            ],
+            [
+                'name' => 'Pelea',
                 'action' => 'Acción Menor o Mayor',
                 'description' => 'Siempre que quieras efectuar un ataque en combate, debes realizar una tirada de Combate cuerpo a cuerpo contra la Defensa en combate de tu adversario. Una tirada con éxito inflige un daño total igual al daño del arma multiplicado por los grados de éxito obtenidos (el daño de un arma es el rango de la habilidad pertinente más posibles modificadores positivos o negativos). En el CAPITULO 9: COMBATE. se explica con detalle la resolución de ataques y sus consecuencias.',
                 'stat_id' => 3
@@ -312,7 +360,49 @@ class SpecialtySeeder extends Seeder
 
             // Persuasión
             [
-                'name' => 'Special',
+                'name' => 'Cautivar',
+                'action' => 'Ninguna',
+                'description' => 'La Persuasión es la capacidad de manipular las emociones y creencias de otros. Con esta habilidad puedes alterar el modo en que te ven los demás, moldear sus actitudes hacia otras personas, convencerlos de cosas con las que normalmente no estarían de acuerdo, y mucho más. Aunque es una habilidad muy eficaz y resulta de vital importancia para quienes participan en el juego de tronos, existen ciertos límites; aquellos que no tienen ningún interés por las intrigas o la conversación no pueden ser sometidos por la fuerza a tus intentos de manipulación. Pero quienes desean algo de ti o se muestran dispuestos a dejarse convencer son víctimas propicias de la Persuasión. La Persuasión es una de las habilidades que más importancia tienen a la hora de participar en una intriga. Posee muchas expresiones, diferenciadas entre sí por las técnicas empleadas y el objetivo perseguido. Negociar representa un intercambio de servicios o artículos por algo de valor similar, mientras que Cautivar sirve para granjearse amistades y entablar alianzas. Provocar puede obligar a un objetivo a actuar para así evitar uno mismo ser censurado, mientras que Incitar se utiliza para empeorar la opinión que tiene el objetivo de alguna otra persona. Todos los métodos y usos completos de la habilidad Persuasión se explican con detalle en el CAPÍTULO 8: INTRIGA.',
+                'description2' => 'No todas las situaciones de interpretación se dan en intrigas a gran escala; también hay encuentros menores que no tienen consecuencias duraderas. Para resolver uno de tales encuentros, debes hacer una tirada de Persuasión contra el valor pasivo de Voluntad de tu objetivo. Si la consigues, la actitud del objetivo hacia ti mejora en una categoría por cada grado de éxito obtenido. Por lo general basta con mejorar la actitud de un objetivo a Cordialidad para conseguir que realice una tarea menor. Sin embargo, los resultados no suelen durar demasiado, y la actitud del objetivo regresa a su categoría inicial al cabo de pocos minutos. En caso de fallar la tirada no podrá volver a intentarse sin comenzar una intriga, y un fallo crítico empeora la actitud del objetivo con una categoría. Las reducciones de la actitud son más duraderas y se mantienen hasta que te enfrentes al objetivo en una intriga para restaurar su actitud.',
+                'stat_id' => 14
+            ],
+            [
+                'name' => 'Convencer',
+                'action' => 'Ninguna',
+                'description' => 'La Persuasión es la capacidad de manipular las emociones y creencias de otros. Con esta habilidad puedes alterar el modo en que te ven los demás, moldear sus actitudes hacia otras personas, convencerlos de cosas con las que normalmente no estarían de acuerdo, y mucho más. Aunque es una habilidad muy eficaz y resulta de vital importancia para quienes participan en el juego de tronos, existen ciertos límites; aquellos que no tienen ningún interés por las intrigas o la conversación no pueden ser sometidos por la fuerza a tus intentos de manipulación. Pero quienes desean algo de ti o se muestran dispuestos a dejarse convencer son víctimas propicias de la Persuasión. La Persuasión es una de las habilidades que más importancia tienen a la hora de participar en una intriga. Posee muchas expresiones, diferenciadas entre sí por las técnicas empleadas y el objetivo perseguido. Negociar representa un intercambio de servicios o artículos por algo de valor similar, mientras que Cautivar sirve para granjearse amistades y entablar alianzas. Provocar puede obligar a un objetivo a actuar para así evitar uno mismo ser censurado, mientras que Incitar se utiliza para empeorar la opinión que tiene el objetivo de alguna otra persona. Todos los métodos y usos completos de la habilidad Persuasión se explican con detalle en el CAPÍTULO 8: INTRIGA.',
+                'description2' => 'No todas las situaciones de interpretación se dan en intrigas a gran escala; también hay encuentros menores que no tienen consecuencias duraderas. Para resolver uno de tales encuentros, debes hacer una tirada de Persuasión contra el valor pasivo de Voluntad de tu objetivo. Si la consigues, la actitud del objetivo hacia ti mejora en una categoría por cada grado de éxito obtenido. Por lo general basta con mejorar la actitud de un objetivo a Cordialidad para conseguir que realice una tarea menor. Sin embargo, los resultados no suelen durar demasiado, y la actitud del objetivo regresa a su categoría inicial al cabo de pocos minutos. En caso de fallar la tirada no podrá volver a intentarse sin comenzar una intriga, y un fallo crítico empeora la actitud del objetivo con una categoría. Las reducciones de la actitud son más duraderas y se mantienen hasta que te enfrentes al objetivo en una intriga para restaurar su actitud.',
+                'stat_id' => 14
+            ],
+            [
+                'name' => 'Incitar',
+                'action' => 'Ninguna',
+                'description' => 'La Persuasión es la capacidad de manipular las emociones y creencias de otros. Con esta habilidad puedes alterar el modo en que te ven los demás, moldear sus actitudes hacia otras personas, convencerlos de cosas con las que normalmente no estarían de acuerdo, y mucho más. Aunque es una habilidad muy eficaz y resulta de vital importancia para quienes participan en el juego de tronos, existen ciertos límites; aquellos que no tienen ningún interés por las intrigas o la conversación no pueden ser sometidos por la fuerza a tus intentos de manipulación. Pero quienes desean algo de ti o se muestran dispuestos a dejarse convencer son víctimas propicias de la Persuasión. La Persuasión es una de las habilidades que más importancia tienen a la hora de participar en una intriga. Posee muchas expresiones, diferenciadas entre sí por las técnicas empleadas y el objetivo perseguido. Negociar representa un intercambio de servicios o artículos por algo de valor similar, mientras que Cautivar sirve para granjearse amistades y entablar alianzas. Provocar puede obligar a un objetivo a actuar para así evitar uno mismo ser censurado, mientras que Incitar se utiliza para empeorar la opinión que tiene el objetivo de alguna otra persona. Todos los métodos y usos completos de la habilidad Persuasión se explican con detalle en el CAPÍTULO 8: INTRIGA.',
+                'description2' => 'No todas las situaciones de interpretación se dan en intrigas a gran escala; también hay encuentros menores que no tienen consecuencias duraderas. Para resolver uno de tales encuentros, debes hacer una tirada de Persuasión contra el valor pasivo de Voluntad de tu objetivo. Si la consigues, la actitud del objetivo hacia ti mejora en una categoría por cada grado de éxito obtenido. Por lo general basta con mejorar la actitud de un objetivo a Cordialidad para conseguir que realice una tarea menor. Sin embargo, los resultados no suelen durar demasiado, y la actitud del objetivo regresa a su categoría inicial al cabo de pocos minutos. En caso de fallar la tirada no podrá volver a intentarse sin comenzar una intriga, y un fallo crítico empeora la actitud del objetivo con una categoría. Las reducciones de la actitud son más duraderas y se mantienen hasta que te enfrentes al objetivo en una intriga para restaurar su actitud.',
+                'stat_id' => 14
+            ],
+            [
+                'name' => 'Intimidar',
+                'action' => 'Ninguna',
+                'description' => 'La Persuasión es la capacidad de manipular las emociones y creencias de otros. Con esta habilidad puedes alterar el modo en que te ven los demás, moldear sus actitudes hacia otras personas, convencerlos de cosas con las que normalmente no estarían de acuerdo, y mucho más. Aunque es una habilidad muy eficaz y resulta de vital importancia para quienes participan en el juego de tronos, existen ciertos límites; aquellos que no tienen ningún interés por las intrigas o la conversación no pueden ser sometidos por la fuerza a tus intentos de manipulación. Pero quienes desean algo de ti o se muestran dispuestos a dejarse convencer son víctimas propicias de la Persuasión. La Persuasión es una de las habilidades que más importancia tienen a la hora de participar en una intriga. Posee muchas expresiones, diferenciadas entre sí por las técnicas empleadas y el objetivo perseguido. Negociar representa un intercambio de servicios o artículos por algo de valor similar, mientras que Cautivar sirve para granjearse amistades y entablar alianzas. Provocar puede obligar a un objetivo a actuar para así evitar uno mismo ser censurado, mientras que Incitar se utiliza para empeorar la opinión que tiene el objetivo de alguna otra persona. Todos los métodos y usos completos de la habilidad Persuasión se explican con detalle en el CAPÍTULO 8: INTRIGA.',
+                'description2' => 'No todas las situaciones de interpretación se dan en intrigas a gran escala; también hay encuentros menores que no tienen consecuencias duraderas. Para resolver uno de tales encuentros, debes hacer una tirada de Persuasión contra el valor pasivo de Voluntad de tu objetivo. Si la consigues, la actitud del objetivo hacia ti mejora en una categoría por cada grado de éxito obtenido. Por lo general basta con mejorar la actitud de un objetivo a Cordialidad para conseguir que realice una tarea menor. Sin embargo, los resultados no suelen durar demasiado, y la actitud del objetivo regresa a su categoría inicial al cabo de pocos minutos. En caso de fallar la tirada no podrá volver a intentarse sin comenzar una intriga, y un fallo crítico empeora la actitud del objetivo con una categoría. Las reducciones de la actitud son más duraderas y se mantienen hasta que te enfrentes al objetivo en una intriga para restaurar su actitud.',
+                'stat_id' => 14
+            ],
+            [
+                'name' => 'Negociar',
+                'action' => 'Ninguna',
+                'description' => 'La Persuasión es la capacidad de manipular las emociones y creencias de otros. Con esta habilidad puedes alterar el modo en que te ven los demás, moldear sus actitudes hacia otras personas, convencerlos de cosas con las que normalmente no estarían de acuerdo, y mucho más. Aunque es una habilidad muy eficaz y resulta de vital importancia para quienes participan en el juego de tronos, existen ciertos límites; aquellos que no tienen ningún interés por las intrigas o la conversación no pueden ser sometidos por la fuerza a tus intentos de manipulación. Pero quienes desean algo de ti o se muestran dispuestos a dejarse convencer son víctimas propicias de la Persuasión. La Persuasión es una de las habilidades que más importancia tienen a la hora de participar en una intriga. Posee muchas expresiones, diferenciadas entre sí por las técnicas empleadas y el objetivo perseguido. Negociar representa un intercambio de servicios o artículos por algo de valor similar, mientras que Cautivar sirve para granjearse amistades y entablar alianzas. Provocar puede obligar a un objetivo a actuar para así evitar uno mismo ser censurado, mientras que Incitar se utiliza para empeorar la opinión que tiene el objetivo de alguna otra persona. Todos los métodos y usos completos de la habilidad Persuasión se explican con detalle en el CAPÍTULO 8: INTRIGA.',
+                'description2' => 'No todas las situaciones de interpretación se dan en intrigas a gran escala; también hay encuentros menores que no tienen consecuencias duraderas. Para resolver uno de tales encuentros, debes hacer una tirada de Persuasión contra el valor pasivo de Voluntad de tu objetivo. Si la consigues, la actitud del objetivo hacia ti mejora en una categoría por cada grado de éxito obtenido. Por lo general basta con mejorar la actitud de un objetivo a Cordialidad para conseguir que realice una tarea menor. Sin embargo, los resultados no suelen durar demasiado, y la actitud del objetivo regresa a su categoría inicial al cabo de pocos minutos. En caso de fallar la tirada no podrá volver a intentarse sin comenzar una intriga, y un fallo crítico empeora la actitud del objetivo con una categoría. Las reducciones de la actitud son más duraderas y se mantienen hasta que te enfrentes al objetivo en una intriga para restaurar su actitud.',
+                'stat_id' => 14
+            ],
+            [
+                'name' => 'Provocar',
+                'action' => 'Ninguna',
+                'description' => 'La Persuasión es la capacidad de manipular las emociones y creencias de otros. Con esta habilidad puedes alterar el modo en que te ven los demás, moldear sus actitudes hacia otras personas, convencerlos de cosas con las que normalmente no estarían de acuerdo, y mucho más. Aunque es una habilidad muy eficaz y resulta de vital importancia para quienes participan en el juego de tronos, existen ciertos límites; aquellos que no tienen ningún interés por las intrigas o la conversación no pueden ser sometidos por la fuerza a tus intentos de manipulación. Pero quienes desean algo de ti o se muestran dispuestos a dejarse convencer son víctimas propicias de la Persuasión. La Persuasión es una de las habilidades que más importancia tienen a la hora de participar en una intriga. Posee muchas expresiones, diferenciadas entre sí por las técnicas empleadas y el objetivo perseguido. Negociar representa un intercambio de servicios o artículos por algo de valor similar, mientras que Cautivar sirve para granjearse amistades y entablar alianzas. Provocar puede obligar a un objetivo a actuar para así evitar uno mismo ser censurado, mientras que Incitar se utiliza para empeorar la opinión que tiene el objetivo de alguna otra persona. Todos los métodos y usos completos de la habilidad Persuasión se explican con detalle en el CAPÍTULO 8: INTRIGA.',
+                'description2' => 'No todas las situaciones de interpretación se dan en intrigas a gran escala; también hay encuentros menores que no tienen consecuencias duraderas. Para resolver uno de tales encuentros, debes hacer una tirada de Persuasión contra el valor pasivo de Voluntad de tu objetivo. Si la consigues, la actitud del objetivo hacia ti mejora en una categoría por cada grado de éxito obtenido. Por lo general basta con mejorar la actitud de un objetivo a Cordialidad para conseguir que realice una tarea menor. Sin embargo, los resultados no suelen durar demasiado, y la actitud del objetivo regresa a su categoría inicial al cabo de pocos minutos. En caso de fallar la tirada no podrá volver a intentarse sin comenzar una intriga, y un fallo crítico empeora la actitud del objetivo con una categoría. Las reducciones de la actitud son más duraderas y se mantienen hasta que te enfrentes al objetivo en una intriga para restaurar su actitud.',
+                'stat_id' => 14
+            ],
+            [
+                'name' => 'Seducir',
                 'action' => 'Ninguna',
                 'description' => 'La Persuasión es la capacidad de manipular las emociones y creencias de otros. Con esta habilidad puedes alterar el modo en que te ven los demás, moldear sus actitudes hacia otras personas, convencerlos de cosas con las que normalmente no estarían de acuerdo, y mucho más. Aunque es una habilidad muy eficaz y resulta de vital importancia para quienes participan en el juego de tronos, existen ciertos límites; aquellos que no tienen ningún interés por las intrigas o la conversación no pueden ser sometidos por la fuerza a tus intentos de manipulación. Pero quienes desean algo de ti o se muestran dispuestos a dejarse convencer son víctimas propicias de la Persuasión. La Persuasión es una de las habilidades que más importancia tienen a la hora de participar en una intriga. Posee muchas expresiones, diferenciadas entre sí por las técnicas empleadas y el objetivo perseguido. Negociar representa un intercambio de servicios o artículos por algo de valor similar, mientras que Cautivar sirve para granjearse amistades y entablar alianzas. Provocar puede obligar a un objetivo a actuar para así evitar uno mismo ser censurado, mientras que Incitar se utiliza para empeorar la opinión que tiene el objetivo de alguna otra persona. Todos los métodos y usos completos de la habilidad Persuasión se explican con detalle en el CAPÍTULO 8: INTRIGA.',
                 'description2' => 'No todas las situaciones de interpretación se dan en intrigas a gran escala; también hay encuentros menores que no tienen consecuencias duraderas. Para resolver uno de tales encuentros, debes hacer una tirada de Persuasión contra el valor pasivo de Voluntad de tu objetivo. Si la consigues, la actitud del objetivo hacia ti mejora en una categoría por cada grado de éxito obtenido. Por lo general basta con mejorar la actitud de un objetivo a Cordialidad para conseguir que realice una tarea menor. Sin embargo, los resultados no suelen durar demasiado, y la actitud del objetivo regresa a su categoría inicial al cabo de pocos minutos. En caso de fallar la tirada no podrá volver a intentarse sin comenzar una intriga, y un fallo crítico empeora la actitud del objetivo con una categoría. Las reducciones de la actitud son más duraderas y se mantienen hasta que te enfrentes al objetivo en una intriga para restaurar su actitud.',
@@ -343,15 +433,27 @@ class SpecialtySeeder extends Seeder
 
             // Puntería
             [
-                'name' => 'Ataque',
+                'name' => 'Armas arrojadizas',
                 'action' => 'Acción Menor o Mayor',
                 'description' => 'Para atacar en combate debes hacer una tirada de Puntería contra la Defensa en combate de tu adversario. Si la consigues le infligirás un daño igual al daño del arma multiplicado por los grados de éxito obtenidos en la tirada. El daño del arma depende del arma en cuestión y de sus propiedades especiales. En el CAPÍTULO 9: COMBATE se explica con detalle la resolución de ataques y sus consecuencias.',
                 'stat_id' => 16
             ],
             [
-                'name' => 'Tiro al Blanco',
-                'action' => 'Especial',
-                'description' => 'También puedes utilizar la Puntería para alcanzar a un objetivo inmóvil, como las dianas de una competición. La dificultad viene determinada por la distancia que separa al tirador del objetivo. Una tirada con éxito indica que has alcanzado al objetivo; cuanto mayor sea el grado de éxito obtenido, más cerca del centro habrá impactado el proyectil. Cabe señalar que el tamaño del objetivo puede aumentar o disminuir la dificultad. Para más información sobre las competiciones de tiro, consulta la sección TORNEOS (página 163 del CAPÍTULO 9: COMBATE).',
+                'name' => 'Arcos',
+                'action' => 'Acción Menor o Mayor',
+                'description' => 'Para atacar en combate debes hacer una tirada de Puntería contra la Defensa en combate de tu adversario. Si la consigues le infligirás un daño igual al daño del arma multiplicado por los grados de éxito obtenidos en la tirada. El daño del arma depende del arma en cuestión y de sus propiedades especiales. En el CAPÍTULO 9: COMBATE se explica con detalle la resolución de ataques y sus consecuencias.',
+                'stat_id' => 16
+            ],
+            [
+                'name' => 'Asedio',
+                'action' => 'Acción Menor o Mayor',
+                'description' => 'Para atacar en combate debes hacer una tirada de Puntería contra la Defensa en combate de tu adversario. Si la consigues le infligirás un daño igual al daño del arma multiplicado por los grados de éxito obtenidos en la tirada. El daño del arma depende del arma en cuestión y de sus propiedades especiales. En el CAPÍTULO 9: COMBATE se explica con detalle la resolución de ataques y sus consecuencias.',
+                'stat_id' => 16
+            ],
+            [
+                'name' => 'Ballestas',
+                'action' => 'Acción Menor o Mayor',
+                'description' => 'Para atacar en combate debes hacer una tirada de Puntería contra la Defensa en combate de tu adversario. Si la consigues le infligirás un daño igual al daño del arma multiplicado por los grados de éxito obtenidos en la tirada. El daño del arma depende del arma en cuestión y de sus propiedades especiales. En el CAPÍTULO 9: COMBATE se explica con detalle la resolución de ataques y sus consecuencias.',
                 'stat_id' => 16
             ],
 
