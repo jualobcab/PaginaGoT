@@ -15,6 +15,8 @@ use Illuminate\Database\Eloquent\Model;
  * @property int $id
  * @property string $name
  * @property string $description
+ * @property bool|null $repeatable
+ * @property string $type
  * 
  * @property Collection|Character[] $characters
  * @property Collection|QualityRequirement[] $quality_requirements
@@ -26,9 +28,15 @@ class Quality extends Model
 	protected $table = 'quality';
 	public $timestamps = false;
 
+	protected $casts = [
+		'repeatable' => 'bool'
+	];
+
 	protected $fillable = [
 		'name',
-		'description'
+		'description',
+		'repeatable',
+		'type'
 	];
 
 	public function characters()

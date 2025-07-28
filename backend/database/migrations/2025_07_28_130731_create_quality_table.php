@@ -15,6 +15,8 @@ return new class extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->text('description');
+            $table->boolean('repeatable')->nullable()->default(false);
+            $table->enum('type', ['Habilidad', 'Predestinada', 'Heredada', 'Marcial', 'Social'])->default('_utf8mb4\\\\\'\'Marcial\\\\\'\'');
         });
     }
 
