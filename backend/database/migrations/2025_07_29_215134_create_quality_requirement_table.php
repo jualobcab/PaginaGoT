@@ -16,17 +16,17 @@ return new class extends Migration
             $table->unsignedBigInteger('quality_id')->index('quality_requirement_quality_id_foreign');
             $table->unsignedBigInteger('required_stat_id')->nullable()->index('quality_requirement_required_stat_id_foreign');
             $table->unsignedBigInteger('required_stat_rank')->nullable();
-            $table->unsignedBigInteger('required_stat_id2')->nullable();
+            $table->unsignedBigInteger('required_stat_id2')->nullable()->index('quality_requirement_required_stat_id2_foreign');
             $table->unsignedBigInteger('required_stat_rank2')->nullable();
-            $table->unsignedBigInteger('required_stat_id3')->nullable();
+            $table->unsignedBigInteger('required_stat_id3')->nullable()->index('quality_requirement_required_stat_id3_foreign');
             $table->unsignedBigInteger('required_stat_rank3')->nullable();
             $table->unsignedBigInteger('required_specialty_id')->nullable()->index('quality_requirement_required_specialty_id_foreign');
             $table->unsignedBigInteger('required_specialty_rank')->nullable();
-            $table->unsignedBigInteger('required_specialty_id2')->nullable();
+            $table->unsignedBigInteger('required_specialty_id2')->nullable()->index('quality_requirement_required_specialty_id2_foreign');
             $table->unsignedBigInteger('required_specialty_rank2')->nullable();
             $table->unsignedBigInteger('required_quality_id')->nullable()->index('quality_requirement_required_quality_id_foreign');
-            $table->unsignedBigInteger('required_quality_id2')->nullable();
-            $table->unsignedBigInteger('required_quality_id3')->nullable();
+            $table->unsignedBigInteger('required_quality_id2')->nullable()->index('quality_requirement_required_quality_id2_foreign');
+            $table->unsignedBigInteger('required_quality_id3')->nullable()->index('quality_requirement_required_quality_id3_foreign');
         });
     }
 

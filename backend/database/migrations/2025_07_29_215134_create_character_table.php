@@ -15,6 +15,7 @@ return new class extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('position');
+            $table->unsignedBigInteger('creator');
             $table->unsignedBigInteger('age_category_id')->index('character_age_category_id_foreign');
             $table->bigInteger('experience_points_total');
             $table->bigInteger('experience_points_remaining');
