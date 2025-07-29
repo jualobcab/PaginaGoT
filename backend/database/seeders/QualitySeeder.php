@@ -251,6 +251,7 @@ class QualitySeeder extends Seeder
             [
                 'name' => 'Erudición',
                 'description' => 'Eres todo un experto en una materia específica. Elige uno de los siguientes campos de experiencia: Alquimia, Arquitectura, Astronomía, Bajos fondos, Geografia, Heráldica, Historia y leyendas, Magia, Naturaleza o Religión. Cuando debas realizar una tirada de Conocimiento relacionada con la materia (o materias) escogida, convierte en dados de habilidad los dados de bonificación que tengas en la especialidad utilizada. Puedes adquirir esta cualidad varias veces y asignarla a un campo de experiencia distinto cada vez',
+                'repeatable' => true,
                 'type' => 'Habilidad'
             ],
             // 51-55

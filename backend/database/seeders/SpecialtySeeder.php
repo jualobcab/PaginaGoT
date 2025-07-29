@@ -15,7 +15,8 @@ class SpecialtySeeder extends Seeder
     public function run(): void
     {
         $specialties = [
-            // Agilidad
+            // Agilidad 
+            // 1-5
             [
                 'name' => 'Acrobacia',
                 'action' => 'Acción Menor',
@@ -52,7 +53,8 @@ class SpecialtySeeder extends Seeder
             ],
 
 
-            // Brío
+            // Brío 
+            // 6-11
             [
                 'name' => 'Arrojar',
                 'action' => 'Acción Menor',
@@ -100,6 +102,7 @@ class SpecialtySeeder extends Seeder
 
 
             // Combate Cuerpo a Cuerpo
+            // 12-20 
             [
                 'name' => 'Armas Contundentes',
                 'action' => 'Acción Menor o Mayor',
@@ -157,6 +160,7 @@ class SpecialtySeeder extends Seeder
 
 
             // Conocimiento
+            // 21-23
             [
                 'name' => 'Callejeo',
                 'action' => 'Varía, Mínimo 1 hora',
@@ -182,6 +186,7 @@ class SpecialtySeeder extends Seeder
 
 
             // Constitución
+            // 24-25
             [
                 'name' => 'Recuperación',
                 'action' => 'Acción Especial',
@@ -199,6 +204,7 @@ class SpecialtySeeder extends Seeder
 
 
             // Curación
+            // 25-27
             [
                 'name' => 'Diagnosticar',
                 'action' => 'Acción Mayor',
@@ -220,6 +226,7 @@ class SpecialtySeeder extends Seeder
 
 
             // Discreción
+            // 28-29
             [
                 'name' => 'Pasar inadvertido',
                 'action' => '',
@@ -235,6 +242,7 @@ class SpecialtySeeder extends Seeder
 
 
             // Engaño
+            // 30-34
             [
                 'name' => 'Actuar',
                 'action' => 'Acción Menor',
@@ -262,6 +270,7 @@ class SpecialtySeeder extends Seeder
 
 
             // Estatus
+            // 35-38
             [
                 'name' => 'Administración',
                 'action' => 'Varía',
@@ -289,6 +298,7 @@ class SpecialtySeeder extends Seeder
             
 
             // Guerra
+            // 39-41
             [
                 'name' => 'Estrategia',
                 'action' => 'Acción Gratuita',
@@ -310,6 +320,7 @@ class SpecialtySeeder extends Seeder
 
 
             // Idioma
+            // 42
             [
                 'name' => 'Special',
                 'action' => 'Ninguna',
@@ -321,6 +332,7 @@ class SpecialtySeeder extends Seeder
 
 
             // Ingenio
+            // 43-45
             [
                 'name' => 'Descifrar',
                 'action' => 'Acción Mayor',
@@ -344,6 +356,7 @@ class SpecialtySeeder extends Seeder
 
 
             // Percepción
+            // 46-47
             [
                 'name' => 'Empatía',
                 'action' => 'Acción Gratuita',
@@ -359,6 +372,7 @@ class SpecialtySeeder extends Seeder
 
 
             // Persuasión
+            // 48-54
             [
                 'name' => 'Cautivar',
                 'action' => 'Ninguna',
@@ -411,6 +425,7 @@ class SpecialtySeeder extends Seeder
 
 
             // Picaresca
+            // 55-57
             [
                 'name' => 'Forzar Cerraduras',
                 'action' => '1 minuto',
@@ -432,6 +447,7 @@ class SpecialtySeeder extends Seeder
 
 
             // Puntería
+            // 58-61
             [
                 'name' => 'Armas arrojadizas',
                 'action' => 'Acción Menor o Mayor',
@@ -459,6 +475,7 @@ class SpecialtySeeder extends Seeder
 
 
             // Supervivencia
+            // 62-65
             [
                 'name' => 'Cazar',
                 'action' => 'Varía',
@@ -490,6 +507,7 @@ class SpecialtySeeder extends Seeder
 
 
             // Trato animal
+            // 66-69
             [
                 'name' => 'Adiestrar',
                 'action' => 'Acción especial (ver texto)',
@@ -519,6 +537,7 @@ class SpecialtySeeder extends Seeder
 
 
             // Voluntad
+            // 70-72
             [
                 'name' => 'Coordinación',
                 'action' => 'Acción Mayor',
